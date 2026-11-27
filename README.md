@@ -1,8 +1,18 @@
 # Brit Crusher
 
-Neural modeling of **3 channels guitar overdrive pedals**, inspired by Blues Breaker and Drive Master, as a free **Windows VST3** plugin by [FMR Labs](https://github.com/FMR-Labs). Built with **iPlug2**.
+**Find Your British Voice.**
+
+Sometimes you want a touch of bluesy grit. Sometimes you need that unmistakable rock crunch. And sometimes, only full-blown hard rock will do.
+
+Brit Crusher brings all three within reach, with three distinct neural-modelled channels inspired by classic British overdrive designs.
+
+Every detail matters: dedicated models and a meticulously developed 3-band EQ.
+
+**Explore. Craft. Find. Enjoy your own sound!**
 
 This plugin models a real analog pedal that we developed.
+
+Distributed as a free **Windows VST3** plugin by [FMR Labs](https://github.com/FMR-Labs). Built with **iPlug2**.
 
 <p align="center">
   <img alt="Brit Crusher" title="Brit Crusher" src="docs/preview.png">
@@ -17,7 +27,8 @@ This plugin models a real analog pedal that we developed.
 * 3 channel selectable with a lever siwtch
 * Controls: **Gain**, **Volume**, **Bass**, **Middle**, **Treble**, **Channel**, **Bypass**
 * Mono or stereo (`1-1`, `2-2`), independent processing per channel
-* Input level LED (green / orange / red)
+* Input level LED around bypass foot switch (green / orange / red)
+* Star-shaped activation LED
 * Click-free channel switching (short mute fade)
 * Runs at any host sample rate: the engine works at 48 kHz, with automatic resampling when the host runs at another rate. The resampler latency is reported to the host.
 * Lightweight: small recurrent neural network per model, no allocation or lock on the audio thread
