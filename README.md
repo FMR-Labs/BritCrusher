@@ -14,11 +14,11 @@ This plugin models a real analog pedal that we developed.
 
 ## Features
 
-* 3 channel selectable from a drop-down menu (list below)
+* 3 channel selectable with a lever siwtch
 * Controls: **Gain**, **Volume**, **Bass**, **Middle**, **Treble**, **Channel**, **Bypass**
 * Mono or stereo (`1-1`, `2-2`), independent processing per channel
 * Input level LED (green / orange / red)
-* Click-free amp switching (short mute fade)
+* Click-free channel switching (short mute fade)
 * Runs at any host sample rate: the engine works at 48 kHz, with automatic resampling when the host runs at another rate. The resampler latency is reported to the host.
 * Lightweight: small recurrent neural network per model, no allocation or lock on the audio thread
 
@@ -27,10 +27,9 @@ This plugin models a real analog pedal that we developed.
 ```
 Host (any fs, 1-2 ch)
  → [fs ≠ 48 kHz] resampling → 48 kHz
- → PreGain (×0.1 … ×10, i.e. -20 … +20 dB)
- → neural preamp model (driven by Volume)
+ → neural model (driven by Gain)
  → Bass / Middle / Treble
- → Master
+ → Volume
  → [fs ≠ 48 kHz] resampling → host fs
 ```
 

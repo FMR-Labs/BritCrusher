@@ -17,7 +17,7 @@ The MIT license of this repository covers the source code only. The items below 
 | Knob bitmap strip | Designed by the author with [WebKnobMan](https://www.g200kg.com/en/webknobman) (g200kg). |
 | Footsw bitmap strip | [WebKnobMan] ID#343 designed by aike licensed under a Creative Commons CC0 Public Domain.|
 | Level switch bitmap strip | Designed with ChatGPT, then retouched by the author. |
-| Background (`BritCrusher.png`) | Generated with Bing, then retouched by the author. |
+| Front panel (`BritCrusher.png`) | Generated with Bing, then retouched by the author. |
 
 These images are not covered by the MIT license. All rights reserved by the author, except that they may be used as part of the compiled plugin binaries distributed by FMR Labs.
 
